@@ -1,5 +1,5 @@
 The Problem statement is given like this :
-You are given a Differential equation: y'''(t) + 7y''(t) + 10y(t) = Ku(t)
+You are given a Differential equation: y'''(t) + 7y''(t) + 10y'(t) = Ku(t)
 where y(t) is output and u(t) is input.
 
 Design the system by selecting an appropriate gain K such that
@@ -8,3 +8,12 @@ Design the system by selecting an appropriate gain K such that
 3) System bust be stable and reasonably robust.
 
 SOLUTION:
+1) Convert the differential equation into a transfer function:
+   y(s)/u(s) = K / s^3 + 7s^2 + s^10
+2)Find the system order and the poles of the open loop transfer function
+3)Sketch the root locus
+4) Determine the range of K for stability.
+5) Compute the damping ratio and estimate the pole location
+6) Determine stable values of K.
+7) Using Nyquist Stability criteria find the gain and phase margin
+8) Use Matlab
