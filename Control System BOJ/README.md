@@ -17,3 +17,5 @@ SOLUTION:
 6) Determine stable values of K.
 7) Using Nyquist Stability criteria find the gain and phase margin
 8) Use Matlab
+
+But by doing this you will realize that the system doesen't satisfy the conditions hence we add a lead compensator to get the right values.
