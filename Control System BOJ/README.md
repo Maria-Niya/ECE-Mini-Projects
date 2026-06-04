@@ -19,3 +19,4 @@ SOLUTION:
 8) Use Matlab
 
 But by doing this you will realize that the system doesen't satisfy the conditions hence we add a lead compensator to get the right values.
+As the lead compensator only adds till 65 degree phase, we need to add 2 lead compensator to get the appropriate phase margin.
